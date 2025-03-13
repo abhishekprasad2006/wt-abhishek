@@ -1,0 +1,49 @@
+summary
+{
+	color:green;
+	font:50px anjalioldlipi;
+	
+}
+p
+{
+	color:red;
+	font:30px anjalioldlipi;
+}
+th
+{
+
+	color:maroon;
+	font:30px anjalioldlipi;
+}
+th
+{
+	background-color:pink;
+}
+td
+{
+	color:red;
+	font :30px anjalioldlipi; 
+}
+td
+{
+	background-color:#b3b3cc;
+}
+table
+{
+	color: pink;
+}
+body
+{
+	background-color:Lightgreen
+table
+{
+	width:100%;
+}
+th
+{
+	background-color:beige;
+}
+td
+{
+	background-color:beige;
+}
