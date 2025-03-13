@@ -1,0 +1,16 @@
+h1
+{
+	color:black;
+}
+p
+{
+	color:black;
+	font-style:italic;
+}
+td{
+	color:red;
+}
+th{
+	font:30px;
+	color:black;
+}
