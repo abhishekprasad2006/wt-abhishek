@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tap Me 😏</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    #sticker {
+      width: 220px;
+      position: absolute;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+
+    #msg {
+      position: fixed;
+      bottom: 30px;
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="sticker" src="STICKER.png" />
+  <div id="msg">Try to catch me 😈</div>
+
+  <script>
+    const img = document.getElementById("sticker");
+
+    function moveSticker() {
+      const x = Math.random() * (window.innerWidth - 220);
+      const y = Math.random() * (window.innerHeight - 220);
+      img.style.left = x + "px";
+      img.style.top = y + "px";
+    }
+
+    img.addEventListener("mouseenter", moveSticker);
+    img.addEventListener("click", moveSticker);
+
+    // start position
+    moveSticker();
+  </script>
+
+</body>
+</html>
